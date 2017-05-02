@@ -1,6 +1,6 @@
 <?php
 
-namespace Ahs\Behat;
+namespace AIT\Behat;
 
 use Behat\MinkExtension\Context\MinkContext;
 use Behat\Mink\Exception\ExpectationException;

@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-0": {
-            "Ahs\\Behat": "src/"
+            "AIT\\Behat": "src/"
         }
-    },
+    }
 }
