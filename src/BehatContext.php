@@ -1,8 +1,7 @@
 <?php
 
-namespace AHS
+namespace Ahs\Behat;
 
-use Behat\Behat\Context\Context;
 use Behat\MinkExtension\Context\MinkContext;
 use Behat\Mink\Exception\ExpectationException;
 
