@@ -10,8 +10,8 @@
     },
     "license": "MIT",
     "autoload": {
-        "psr-0": {
-            "AIT\\Behat": "src/"
+        "psr-4": {
+            "AIT\\Behat\\": "src/"
         }
     }
 }
