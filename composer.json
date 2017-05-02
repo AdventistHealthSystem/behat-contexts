@@ -1,5 +1,5 @@
 {
-    "name": "ahs/behat-contexts",
+    "name": "ait/behat-contexts",
     "description": "Additional contexts for behat testing",
     "type": "library",
     "require": {
