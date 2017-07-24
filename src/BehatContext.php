@@ -185,7 +185,9 @@ class BehatContext extends MinkContext
             $currentUrl = $this->getSession()->getCurrentUrl();
             $parsedUrl = parse_url($currentUrl);
             $client = $this->getSession()->getDriver()->getClient()->getClient();
-            $result = $client->request('GET', $parsedUrl['scheme'] . '://' . $parsedUrl['host'] . ':' . $parsedUrl['port'] . $url);
+
+            $port = array_key_exists('port', $parsedUrl) ? ':' . $parsedUrl('port') : '';
+            $result = $client->request('GET', $parsedUrl['scheme'] . '://' . $parsedUrl['host'] . $port . $url);
 
             $status = $result->getStatusCode();
 
